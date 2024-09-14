@@ -1,0 +1,7 @@
+OpenCV Tutorial
+https://youtu.be/rKcwcARdg9M?si=v412fDQ-ejsxvtwz
+OpenCV Python Tutorial #3 - Cameras and VideoCapture (Tech With Tim)
+
+Flask Tutorial
+https://youtube.com/playlist?list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX&si=ATPUE08Lb0BW3B5B
+Flask Tutorials (Tech With Tim)
