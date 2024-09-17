@@ -9,7 +9,7 @@ Find a free AI API
 Impliment the API
 Create a database of all the AI training data
 Train the AI
-Test the AI against different people
+Test the AI against different people (changes to the database may alter depending on the results)
 
 --------- Write Up ---------
 Research different types of AI and choose which one to use (probably useful to do before finding the API :p)
