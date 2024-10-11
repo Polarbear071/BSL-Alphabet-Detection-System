@@ -1,3 +1,5 @@
+---- Programming ----
+
 OpenCV Tutorial
 https://youtu.be/rKcwcARdg9M?si=v412fDQ-ejsxvtwz
 OpenCV Python Tutorial #3 - Cameras and VideoCapture (Tech With Tim)
@@ -8,4 +10,20 @@ Flask Tutorials (Tech With Tim)
 
 Navigation Bar
 https://getbootstrap.com/docs/4.3/components/navbar/
-Navbar . Bootstrap
+Navbar • Bootstrap
+
+---- Write up Research ----
+
+AI Methodologies
+
+Supervised Learning
+https://www.ibm.com/topics/supervised-learning
+What is supervised learning?
+
+Unsupervised Learning
+https://www.ibm.com/topics/unsupervised-learning
+What is unsupervised learning?
+
+Reinforcement Learning
+https://www.ibm.com/topics/reinforcement-learning
+What is reinforcement learning?
