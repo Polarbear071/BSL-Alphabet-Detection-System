@@ -12,6 +12,10 @@ Navigation Bar
 https://getbootstrap.com/docs/4.3/components/navbar/
 Navbar • Bootstrap
 
+Gray scaling Images
+https://www.geeksforgeeks.org/python-grayscaling-of-images-using-opencv/
+Python|Grayscaling of Images using OpenCV - GeeksforGeeks
+
 ---- Write up Research ----
 
 AI Methodologies
