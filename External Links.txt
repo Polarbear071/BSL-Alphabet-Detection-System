@@ -16,6 +16,10 @@ Gray scaling Images
 https://www.geeksforgeeks.org/python-grayscaling-of-images-using-opencv/
 Python|Grayscaling of Images using OpenCV - GeeksforGeeks
 
+Hand Tracking
+gitHub.com/cvzone/cvzone?tab=readme-ov-file#hand-tracking-module
+cvzone - Hand Tracking Method
+
 ---- Write up Research ----
 
 AI Methodologies
