@@ -32,6 +32,9 @@ Unsupervised Learning
 https://www.ibm.com/topics/unsupervised-learning
 What is unsupervised learning?
 
+https://cloud.google.com/discover/what-is-unsupervised-learning
+What is unsupervised learning? | Google Cloud
+
 Reinforcement Learning
 https://www.ibm.com/topics/reinforcement-learning
 What is reinforcement learning?
