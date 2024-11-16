@@ -22,8 +22,6 @@ cvzone - Hand Tracking Method
 
 ---- Write up Research ----
 
-AI Methodologies
-
 Supervised Learning
 https://www.ibm.com/topics/supervised-learning
 What is supervised learning?
@@ -38,3 +36,7 @@ What is unsupervised learning? | Google Cloud
 Reinforcement Learning
 https://www.ibm.com/topics/reinforcement-learning
 What is reinforcement learning?
+
+Percentage of people in UK who know British Sign Language
+https://www.ons.gov.uk/
+Number of people who know BSL in 2022
