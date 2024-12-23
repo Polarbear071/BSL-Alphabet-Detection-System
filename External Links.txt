@@ -16,14 +16,14 @@ Gray scaling Images
 https://www.geeksforgeeks.org/python-grayscaling-of-images-using-opencv/
 Python|Grayscaling of Images using OpenCV - GeeksforGeeks
 
-Hand Tracking
-gitHub.com/cvzone/cvzone?tab=readme-ov-file#hand-tracking-module
-cvzone - Hand Tracking Method
 
-Working the AI
-https://data-flair.training/blogs/sign-language-recognition-python-ml-opencv/
-Sign Language Recognition using Python and OpenCV - Dataflair
+Working and training the AI
+https://www.youtube.com/watch?v=MJCSjXepaAM
+Sign language detection with Python and Scikit Learn|Landmark detection|Computer vision tutorial
 
+Borders on text
+https://www.computerhope.com/issues/ch001392.htm
+How to Create a Colored Border Around Text With HTML and CSS
 ---- Write up Research ----
 
 Supervised Learning
