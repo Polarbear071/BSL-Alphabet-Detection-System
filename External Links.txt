@@ -20,6 +20,10 @@ Hand Tracking
 gitHub.com/cvzone/cvzone?tab=readme-ov-file#hand-tracking-module
 cvzone - Hand Tracking Method
 
+Working the AI
+https://data-flair.training/blogs/sign-language-recognition-python-ml-opencv/
+Sign Language Recognition using Python and OpenCV - Dataflair
+
 ---- Write up Research ----
 
 Supervised Learning
