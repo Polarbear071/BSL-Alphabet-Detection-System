@@ -1,13 +1,8 @@
 {% extends 'base.html' %}
 
-{% block title %} About - AI BSL Learning Platform {% endblock %}
-
 {% block content %}
-    <div class="container">
-        <p>
-            <span class="border">
-                The AI BSL Learning Platform is a website that allows people to learn the BSL Alphabet completely free. We use your webcam along with AI to check how accurate your signs are and give you feedback.
-            </span>
-        </p>
-    </div>
+    <p>
+        <img src="{{ url_for('static', filename='images/What is BSL Learning.png') }}" alt="BSL Learning Info Sheet" width= '507' height = '171' >
+        <img src="{{ url_for('static', filename='images/Webcam Doesnt Connect.png') }}" alt = "Webcam Help Sheet" width= '405' height = '241'>
+    </p>
 {% endblock %}
