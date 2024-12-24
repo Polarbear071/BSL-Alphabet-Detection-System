@@ -24,14 +24,17 @@ data = [pad_or_truncate(sample, target_length) for sample in data_dict['data']]
 # Data will be split with the same proportion of each label
 x_train, x_test, y_train, y_test = train_test_split(data, labels, test_size=0.2, shuffle=True, stratify=labels)
 
+# Clarifying the model and fitting the 
 model = RandomForestClassifier()
 model.fit(x_train, y_train)
 
 y_predict = model.predict(x_test)
 
+# Calculating the accuracy of the model
 score = accuracy_score(y_predict, y_test)
 print('{}% of samples classified correctly'.format(score * 100))
 
+# Storing the model under 'model.p'
 f = open('model.p', 'wb')
 pickle.dump({'model': model}, f)
 f.close()

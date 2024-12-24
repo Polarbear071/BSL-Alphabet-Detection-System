@@ -42,28 +42,24 @@ while True:
 
         for hand_landmarks in results.multi_hand_landmarks:
             for i in range(len(hand_landmarks.landmark)):
-                x = hand_landmarks.landmark[i].x    # Storing x and y coordinates
+                x = hand_landmarks.landmark[i].x
                 y = hand_landmarks.landmark[i].y
-                data_aux.append(x)  # Appending x and y coordinates
+                data_aux.append(x)
                 data_aux.append(y)
                 x_.append(x)
                 y_.append(y)
 
         # If only one hand is detected 'C' is predicted
-        if len(results.multi_hand_landmarks) == 1:
+        if len(data_aux) == 42:
             predicted_character = 'C'
             print(predicted_character)
 
-            # Use x and y co ordinates for the first landmark
             x1 = int(x_[0] * W)
             y1 = int(y_[0] * H)
 
-            # Drawing C
             cv2.putText(frame, predicted_character, (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 1, cv2.LINE_AA)
 
-        else:
-            # If two hands are detected
-            if len(data_aux) == 84:
+        elif len(data_aux) == 84: # when Two hands being detected
 
                 x1 = int(min(x_) * W)
                 y1 = int(min(y_) * H)
@@ -71,9 +67,8 @@ while True:
                 x2 = int(max(x_) * W)
                 y2 = int(max(y_) * H)
 
-                # Prediction using model
+                # Predicting the letter
                 prediction = model.predict([np.asarray(data_aux)])
-
                 predicted_character = labels_dict[int(prediction[0])]
                 print(predicted_character)
 
@@ -81,7 +76,7 @@ while True:
                 cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 2)
                 cv2.putText(frame, predicted_character, (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 1, cv2.LINE_AA)
 
-    # Display the frame with the prediction around displayed hands
+    # Display the frame with the prediction
     cv2.imshow('frame', frame)
     cv2.waitKey(1)
 

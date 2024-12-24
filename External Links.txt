@@ -24,6 +24,11 @@ Sign language detection with Python and Scikit Learn|Landmark detection|Computer
 Borders on text
 https://www.computerhope.com/issues/ch001392.htm
 How to Create a Colored Border Around Text With HTML and CSS
+
+Fixing the ValueError
+https://stackoverflow.com/questions/4674473/valueerror-setting-an-array-element-with-a-sequence
+python - ValueError: setting an arrayelement with a sequence - Stack Overflow
+
 ---- Write up Research ----
 
 Supervised Learning
