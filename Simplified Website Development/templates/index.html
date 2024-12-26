@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="static/styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-    <p>
-        <img src="{{ url_for('static', filename='images/Welcome Message.png') }}" alt="Encountered an error loading 'BSL Learning Info Sheet'" width= '310' height = '175' >
-    </p>
+    <div id = "margins">
+        <p>
+            <img src="{{ url_for('static', filename='images/letters/' + counter + '.png') }}" alt="Encountered an error loading 'BSL Learning Info Sheet'" width= '200' height = '200' >
+            <img src="{{ url_for('static', filename='images/Welcome Message.png') }}" alt="Encountered an error loading 'BSL Learning Info Sheet'" width= '310' height = '175' >
+        </p>
+    </div>
     <div id="the-final-countdown">
         <p></p>
     </div>

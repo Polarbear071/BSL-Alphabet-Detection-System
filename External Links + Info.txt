@@ -16,6 +16,10 @@ Bootstrap & Template Inheritance
 https://www.youtube.com/watch?v=4nzI4RKwb5I&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX&index=3
 Flask Tutorial #3 - Adding Bootstrap and Template Inheritance - YouTube
 
+HTML and CSS
+https://www.w3schools.com/html/html_css.asp
+HTML Styles CSS
+
 Flask Documentation
 https://flask.palletsprojects.com/en/stable/
 Welcome to Flask - Flask Documentation

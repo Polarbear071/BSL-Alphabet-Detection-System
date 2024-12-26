@@ -17,3 +17,4 @@ https://deafaction.org/wp-content/uploads/2019/05/fingerspelling-2.jpg
 https://flask.palletsprojects.com/en/stable/
 https://pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/
 https://stackoverflow.com/questions/17682103/how-can-i-send-cv2-frames-to-a-browser
+https://www.w3schools.com/html/html_css.asp
