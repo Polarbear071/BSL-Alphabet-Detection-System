@@ -39,6 +39,8 @@ def countdown_reached():
     if countdown_reached:
         counter += 1
         countdown_reached = False
+        if counter == 26:
+            counter = 0
 
 if __name__ == '__main__':
     app.run(debug=True)
