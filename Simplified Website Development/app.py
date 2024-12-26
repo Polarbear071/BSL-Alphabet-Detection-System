@@ -2,14 +2,19 @@
 from flask import Flask, render_template, Response
 from inference_classifier import video_stream
 
-class PageData:
+class PageData():
     def __init__(self, title, usage, complexity):
         self.title = title
         self.usage = usage  # The use of the page
         self.complexity = complexity    # What makes it complex
 
+home = PageData('Home Page / Root Page', "Contains the 'Letter of the day' feature", 'JS countdown = 0, python code changes daily image')
+learning = PageData('Learning Page', 'Used to learn BSL', 'AI functionality & ensuring the webcam appears on the page')
+about = PageData('About Page', 'Used to answer FAQ', 'Nothing extraordinary to note')
+
 app = Flask(__name__)
 counter = 0
+
 @app.route('/video_feed')
 def video_feed():
     return Response(video_stream(), mimetype='multipart/x-mixed-replace; boundary=frame')   # mimetype = defining the nature of the video stream
