@@ -74,7 +74,7 @@ while True:
 
                 # Drawing rectangle and prediction on webcam footage
                 cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 2)
-                cv2.putText(frame, predicted_character, (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 1, cv2.LINE_AA)
+                cv2.putText(frame, predicted_character, (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 255, 0), 1, cv2.LINE_AA)
 
     # Display the frame with the prediction
     cv2.imshow('frame', frame)

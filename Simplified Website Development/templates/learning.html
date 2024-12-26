@@ -4,9 +4,10 @@
 
 {% block content %}
     <p>
-        <img src="{{ url_for('video_feed') }}" alt="Live Video Stream" width="640" height="480">
+        <img src="{{ url_for('video_feed') }}" alt="Encountered an error loading 'Live Video Stream'" width="640" height="480">
+        <img src="{{ url_for('static', filename='images/Alphabet Help Sheet.png') }}" alt="Encountered an error loading 'BSL Alphabet Help Sheet'" width='708' height='426'>
     </p>
     <p>
-        <img src="{{ url_for('static', filename='images/Alphabet Help Sheet.png') }}" alt="Alphabet Help Sheet" width='708' height='426'>
+        <img src="{{ url_for('static', filename='images/Webcam Doesnt Connect.png') }}" alt = "Encountered an error loading 'Webcam Help Sheet" width= '405' height = '241'>
     </p>
 {% endblock %}
