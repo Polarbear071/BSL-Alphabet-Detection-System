@@ -1,59 +1,17 @@
----- Programming ----
-
-OpenCV Tutorial
-https://youtu.be/rKcwcARdg9M?si=v412fDQ-ejsxvtwz
-OpenCV Python Tutorial #3 - Cameras and VideoCapture (Tech With Tim)
-
-Flask Tutorial
 https://youtube.com/playlist?list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX&si=ATPUE08Lb0BW3B5B
-Flask Tutorials (Tech With Tim)
-
-Navigation Bar
+https://youtu.be/rKcwcARdg9M?si=v412fDQ-ejsxvtwz
 https://getbootstrap.com/docs/4.3/components/navbar/
-Navbar • Bootstrap
-
-Gray scaling Images
 https://www.geeksforgeeks.org/python-grayscaling-of-images-using-opencv/
-Python|Grayscaling of Images using OpenCV - GeeksforGeeks
-
-
-Working and training the AI
 https://www.youtube.com/watch?v=MJCSjXepaAM
-Sign language detection with Python and Scikit Learn|Landmark detection|Computer vision tutorial
-
-Borders on text
-https://www.computerhope.com/issues/ch001392.htm
-How to Create a Colored Border Around Text With HTML and CSS
-
-Fixing the ValueError
 https://stackoverflow.com/questions/4674473/valueerror-setting-an-array-element-with-a-sequence
-python - ValueError: setting an arrayelement with a sequence - Stack Overflow
-
-Aligning two images
 https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
-How To Align Images Side By Side
-
----- Write up Research ----
-
-Supervised Learning
+https://codepen.io/derrickmckeown/pen/pvzydG -> TBD
 https://www.ibm.com/topics/supervised-learning
-What is supervised learning?
-
-Unsupervised Learning
 https://www.ibm.com/topics/unsupervised-learning
-What is unsupervised learning?
-
 https://cloud.google.com/discover/what-is-unsupervised-learning
-What is unsupervised learning? | Google Cloud
-
-Reinforcement Learning
 https://www.ibm.com/topics/reinforcement-learning
-What is reinforcement learning?
-
-Percentage of people in UK who know British Sign Language
 https://www.ons.gov.uk/
-Number of people who know BSL in 2022
-
-BSL Alphabet Signs.png
 https://deafaction.org/wp-content/uploads/2019/05/fingerspelling-2.jpg
-Learn the BSL alphabet - Deaf Action
+https://flask.palletsprojects.com/en/stable/
+https://pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/
+https://stackoverflow.com/questions/17682103/how-can-i-send-cv2-frames-to-a-browser

@@ -1,19 +1,25 @@
-# Imports
-from flask import Flask, render_template
+from flask import Flask, render_template, Response
+from inference_classifier import process_video_stream
 
-app = Flask(__name__)    # Standard definition of flask
+app = Flask(__name__)
 
-@app.route('/')    # Stating the default route for the website
-def home():    # defining the home page
-    return render_template('index.html')    # Rendering the template within the page
+# Route to stream video
+@app.route('/video_feed')
+def video_feed():
+    return Response(process_video_stream(), mimetype='multipart/x-mixed-replace; boundary=frame')
+
+# Routes for your website
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 @app.route('/learning')
 def test():
-    return render_template('learning.html') # Rendering the template
+    return render_template('learning.html')
 
 @app.route('/about')
 def about():
     return render_template('about.html')
 
-if __name__ == '__main__':   # Ensuring that the website wil run
-    app.run(debug = True)    # 'debug = True' ensures that any changes are automatically changed upon save not re-run
+if __name__ == '__main__':
+    app.run(debug=True)
