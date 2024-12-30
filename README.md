@@ -1,6 +1,6 @@
 To run the program, run the 'app.py' file in the 'Simplified Website Development' folder and load the website at the location stated after the 'Running on' section in the terminal.
 
-Dependancie:
+Dependancies:
 
 Website Dependancies:
 Flask (pip install Flask)
