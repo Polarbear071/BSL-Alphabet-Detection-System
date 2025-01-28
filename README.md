@@ -3,13 +3,13 @@ To run the program, run the 'app.py' file in the 'Simplified Website Development
 Dependancies:
 
 Website Dependancies:
-Flask (pip install Flask)
-OpenCV (pip install opencv-python)
-MediaPipe (pip install mediapipe)
-Pickle (pip install pickle-mixin
-Numpy (pip install numpy)
-Scikit-learn (pip install scikit-learn)
+Flask (pip install Flask) 
+OpenCV (pip install opencv-python) 
+MediaPipe (pip install mediapipe) 
+Pickle (pip install pickle-mixin) 
+Numpy (pip install numpy) 
+Scikit-learn (pip install scikit-learn) 
 
 Extra Testing Dependancies:
-cvzone (pip install cvzone)
-OS (installed with python)
+cvzone (pip install cvzone) 
+OS (installed with python) 
